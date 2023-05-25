@@ -11,11 +11,11 @@ VERSION: 1.0
 FEEDBACK/BUGS: Please contact me by email.
 
 Dependencies:
-- https://hc.apache.org/httpcomponents-core-4.4.x/index.html
-- https://hc.apache.org/httpcomponents-client-4.5.x/index.html
-- https://commons.apache.org/proper/commons-cli/
-- https://commons.apache.org/proper/commons-lang/
-- https://commons.apache.org/proper/commons-logging/
+- https://mvnrepository.com/artifact/commons-cli/commons-cli
+- https://mvnrepository.com/artifact/commons-logging/commons-logging
+- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
 
 Compilation and Usage:
 ```
