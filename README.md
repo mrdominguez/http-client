@@ -28,6 +28,7 @@ usage: HttpClient [-b] [-h] [-l] [-t <arg>] -u <arg>
  -t,--timeout <arg>   Timeout (seconds)
  -u,--url <arg>       URL address
 ```
+
 Sample Output:
 ```
 $ java -cp HttpClient.jar HttpClient -u http://apache.org/ -h -l
