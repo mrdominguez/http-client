@@ -1,7 +1,5 @@
 # http-client
 
-GET HTTP client with SSL and redirection support.
-
 AUTHOR: Mariano Dominguez  
 <marianodominguez@hotmail.com>  
 https://www.linkedin.com/in/marianodominguez
@@ -10,14 +8,18 @@ VERSION: 1.0
 
 FEEDBACK/BUGS: Please contact me by email.
 
-Dependencies:
-- https://mvnrepository.com/artifact/commons-cli/commons-cli
-- https://mvnrepository.com/artifact/commons-logging/commons-logging
-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
+## Description
+GET HTTP client with SSL and redirection support.
 
-Compilation and Usage:
+- HTTP status code displayed by default
+- Optionally, display:
+  - Response body
+  - Response headers
+  - Final redirect location
+- Configurable timeout
+
+## Compilation and Usage
+See [dependencies](https://github.com/mrdominguez/http-client/blob/master/README.md#dependencies) below.
 ```
 $ javac -cp *:. HttpClient.java && java -cp *:. HttpClient
 Missing required option: u
@@ -29,7 +31,7 @@ usage: HttpClient [-b] [-h] [-l] [-t <arg>] -u <arg>
  -u,--url <arg>       URL address
 ```
 
-Sample Output:
+## Sample Output
 ```
 $ java -cp HttpClient.jar HttpClient -u http://apache.org/ -h -l
 \__ Executing request GET http://apache.org/ HTTP/1.1
@@ -55,3 +57,10 @@ Response headers:
 	X-Timer	|	S1684947618.173562,VS0,VE2
 	Vary	|	Accept-Encoding
 ```
+
+## Dependencies
+- https://mvnrepository.com/artifact/commons-cli/commons-cli
+- https://mvnrepository.com/artifact/commons-logging/commons-logging
+- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
