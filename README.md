@@ -65,7 +65,7 @@ Response headers:
 - https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
 - https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
 
-This is the list of JAR files I used to compile the code:
+This is the list of JAR files I used to compile and test the code:
 ```
 commons-cli-1.3.jar
 commons-lang3-3.12.0.jar
