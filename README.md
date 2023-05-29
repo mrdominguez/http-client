@@ -19,7 +19,6 @@ GET HTTP client with SSL and redirection support.
 - Configurable timeout
 
 ## Compilation and Usage
-
 This is the list of JAR files I used to compile and test the code:
 ```
 commons-cli-1.3.jar
@@ -28,6 +27,7 @@ commons-logging-1.1.3.jar
 httpclient-4.5.9.jar
 httpcore-4.4.11.jar
 ```
+See links to [Maven artifacts](https://github.com/mrdominguez/http-client/blob/master/README.md#dependencies) below.
 ```
 $ javac -cp *:. HttpClient.java && java -cp *:. HttpClient
 Missing required option: u
@@ -38,7 +38,6 @@ usage: HttpClient [-b] [-h] [-l] [-t <arg>] -u <arg>
  -t,--timeout <arg>   Timeout (seconds)
  -u,--url <arg>       URL address
 ```
-See links to [Maven artifacts](https://github.com/mrdominguez/http-client/blob/master/README.md#dependencies) below.
 
 ## Sample Output
 ```
