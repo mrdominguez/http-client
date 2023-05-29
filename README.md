@@ -64,3 +64,12 @@ Response headers:
 - https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
 - https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
 - https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore
+
+This is the list of JAR files I used to compile the code:
+```
+commons-cli-1.3.jar
+commons-lang3-3.12.0.jar
+commons-logging-1.1.3.jar
+httpclient-4.5.9.jar
+httpcore-4.4.11.jar
+```
