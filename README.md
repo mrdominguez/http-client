@@ -27,7 +27,7 @@ commons-logging-1.1.3.jar
 httpclient-4.5.9.jar
 httpcore-4.4.11.jar
 ```
-See links to [Maven artifacts](https://github.com/mrdominguez/http-client/blob/master/README.md#dependencies) below.
+Links to [Maven artifacts](https://github.com/mrdominguez/http-client/blob/master/README.md#dependencies) below.
 ```
 $ javac -cp *:. HttpClient.java && java -cp *:. HttpClient
 Missing required option: u
