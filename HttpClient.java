@@ -57,7 +57,7 @@ import org.apache.commons.cli.ParseException;
 public class HttpClient {
 
   public static void main(String[] args) throws IOException, URISyntaxException, NoSuchAlgorithmException, KeyManagementException, KeyStoreException {
-	HttpClient m = new HttpClient();
+	HttpClient hc = new HttpClient();
 	Options options = new Options();
 
 	Option urlOpt = new Option("u", "url", true, "URL address");
@@ -88,7 +88,7 @@ public class HttpClient {
 		cmd = parser.parse(options, args);
 	} catch (ParseException e) {
 		System.out.println(e.getMessage());
-		formatter.printHelp(100, m.getClass().getSimpleName(), null, options, null, true);
+		formatter.printHelp(100, hc.getClass().getSimpleName(), null, options, null, true);
 		System.exit(1);
 	}
 
